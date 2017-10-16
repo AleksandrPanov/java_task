@@ -11,5 +11,11 @@ public class Main {
         System.out.println(triangle);
         System.out.println(triangle.getType());
         System.out.println(triangle.getPerimeter());
+
+        Author aut[] = new Author[3];
+        for (int i = 0; i < 3; i++)
+            aut[i] = new Author("a".concat(String.valueOf(i)), "e".concat(String.valueOf(i)), 'm' );
+        Book book = new Book("book1", aut, 150.0, 100);
+        System.out.println(book);
     }
 }

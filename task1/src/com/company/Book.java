@@ -3,12 +3,6 @@ package com.company;
 import java.util.Arrays;
 
 public class Book {
-    public class Author
-    {
-        private String name;
-        private String email;
-        private char gender;
-    }
     private String name;
     private Author [] authors;
     private double price;
@@ -53,9 +47,14 @@ public class Book {
 
     @Override
     public String toString() {
+        String s = "";
+        for (Author a : authors)
+        {
+            s = s.concat(a.toString());
+        }
         return "Book{" +
                 "name='" + name + '\'' +
-                ", authors=" + Arrays.toString(authors) +
+                ", authors=" + s +
                 ", price=" + price +
                 ", qty=" + qty +
                 '}';

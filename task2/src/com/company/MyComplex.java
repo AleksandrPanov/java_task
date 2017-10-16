@@ -77,7 +77,33 @@ public class MyComplex {
     double argument()
     {
         if (real == 0 && imag == 0) return -100.0;
-        return 0.0;
+        if (real > 0) return Math.atan(imag/real);
+        if (real < 0 && imag >= 0) return Math.PI + Math.atan(imag/real);
+        if (imag > 0) return Math.PI/2;
+        return -Math.PI/2;
     }
-
+    MyComplex addNew(MyComplex o)
+    {
+        return new MyComplex(real + o.real, imag + o.imag);
+    }
+    MyComplex substractNew(MyComplex o)
+    {
+        return new MyComplex(real - o.real, imag - o.imag);
+    }
+    MyComplex conjugate()
+    {
+        return new MyComplex(real, -imag);
+    }
+    MyComplex add(MyComplex o)
+    {
+        real += o.real;
+        imag += o.imag;
+        return this;
+    }
+    MyComplex subtruct(MyComplex o)
+    {
+        real -= o.real;
+        imag -= o.imag;
+        return this;
+    }
 }
