@@ -17,5 +17,6 @@ public class Main {
             aut[i] = new Author("a".concat(String.valueOf(i)), "e".concat(String.valueOf(i)), 'm' );
         Book book = new Book("book1", aut, 150.0, 100);
         System.out.println(book);
+        System.out.println(book.getAuthorNames());
     }
 }

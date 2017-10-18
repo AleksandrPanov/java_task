@@ -63,12 +63,8 @@ public class Book {
     String getAuthorNames()
     {
         String s = "";
-        for (int i = 0; i < name.length(); i++)
-        {
-            s+= authors[i].name;
-            if (i != name.length() - 1)
-                s+=",";
-        }
+        for (int i = 0; i < authors.length; i++)
+          s = String.join(",", authors[i].name, s);
         return s;
     }
 }

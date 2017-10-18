@@ -17,11 +17,9 @@ public class MyPoint {
     public int getX() {
         return x;
     }
-
     public int getY() {
         return y;
     }
-
     public int[] getXY()
     {
         int ar[] = new int[2];
@@ -33,7 +31,6 @@ public class MyPoint {
     public void setX(int x) {
         this.x = x;
     }
-
     public void setY(int y) {
         this.y = y;
     }

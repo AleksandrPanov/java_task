@@ -6,13 +6,6 @@ public class Employee {
    private String lastName;
    private int salary;
 
-    public Employee() {
-        id = 0;
-        firstName = "";
-        lastName = "";
-        salary = 0;
-    }
-
     public Employee(int id, String firstName, String lastName, int salary) {
         this.id = id;
         this.firstName = firstName;
@@ -32,6 +25,11 @@ public class Employee {
         return lastName;
     }
 
+    public String getName()
+    {
+        return firstName + " " + lastName;
+    }
+
     public int getSalary() {
         return salary;
     }
@@ -49,8 +47,7 @@ public class Employee {
     public String toString() {
         return "Employee{" +
                 "id=" + id +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", name='" + getName() +
                 ", salary=" + salary +
                 '}';
     }

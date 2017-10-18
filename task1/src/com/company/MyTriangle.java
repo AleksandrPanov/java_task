@@ -37,6 +37,5 @@ public class MyTriangle {
        else if (a == b || a == c || b == c)
            return "Isosceles";
        else return "Scalene";
-
     }
 }
