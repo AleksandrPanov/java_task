@@ -15,7 +15,7 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
+            <state relative-caret-position="380">
               <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
@@ -35,7 +35,7 @@
       <file leaf-file-name="Book.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
+            <state relative-caret-position="600">
               <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
               <folding>
                 <element signature="method#Book#0;class#Book#0" expanded="false" />
@@ -47,23 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyPoint.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyPoint.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/MyPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
               <folding>
                 <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
                 <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
                 <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-                <element signature="e#1111#1112#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
+                <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+                <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyTriangle.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyTriangle.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MyTriangle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -94,7 +94,7 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
+            <state relative-caret-position="660">
               <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
                 <element signature="e#569#570#0" expanded="true" />
@@ -172,6 +172,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -196,7 +197,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -305,11 +305,92 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="37" lean-forward="false" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
+          <folding>
+            <element signature="method#Book#0;class#Book#0" expanded="false" />
+            <element signature="method#Book#1;class#Book#0" expanded="false" />
+            <element signature="method#toString#0;class#Book#0" expanded="false" />
+            <element signature="method#getAuthorNames#0;class#Book#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
+            <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="method#Circle#2;class#Circle#0" expanded="false" />
+            <element signature="method#toString#0;class#Circle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="method#Rectangle#0;class#Rectangle#0" expanded="false" />
+            <element signature="method#Rectangle#1;class#Rectangle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyTriangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="32" column="4" lean-forward="false" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="method#MyTriangle#0;class#MyTriangle#0" expanded="false" />
+            <element signature="method#MyTriangle#1;class#MyTriangle#0" expanded="false" />
+            <element signature="method#toString#0;class#MyTriangle#0" expanded="false" />
+            <element signature="method#getType#0;class#MyTriangle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -339,8 +420,8 @@
             <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
             <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
             <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -420,8 +501,8 @@
             <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
             <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
             <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -501,8 +582,8 @@
             <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
             <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
             <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,8 +650,8 @@
             <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
             <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
             <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -650,8 +731,8 @@
             <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
             <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
             <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -715,33 +796,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Rectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="method#Rectangle#0;class#Rectangle#0" expanded="false" />
-            <element signature="method#Rectangle#1;class#Rectangle#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
+        <state relative-caret-position="660">
           <caret line="49" column="38" lean-forward="false" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#618#619#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,27 +817,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Book.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
+        <state relative-caret-position="600">
           <caret line="63" column="4" lean-forward="false" selection-start-line="63" selection-start-column="4" selection-end-line="63" selection-end-column="4" />
           <folding>
             <element signature="method#Book#0;class#Book#0" expanded="false" />
             <element signature="method#Book#1;class#Book#0" expanded="false" />
             <element signature="method#toString#0;class#Book#0" expanded="false" />
             <element signature="method#getAuthorNames#0;class#Book#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/MyPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
-            <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
-            <element signature="e#1111#1112#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -789,6 +837,55 @@
             <element signature="method#MyTriangle#1;class#MyTriangle#0" expanded="false" />
             <element signature="method#toString#0;class#MyTriangle#0" expanded="false" />
             <element signature="method#getType#0;class#MyTriangle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding>
+            <element signature="method#Rectangle#0;class#Rectangle#0" expanded="false" />
+            <element signature="method#Rectangle#1;class#Rectangle#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="104" column="19" lean-forward="false" selection-start-line="104" selection-start-column="19" selection-end-line="104" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/MyPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="method#MyPoint#1;class#MyPoint#0" expanded="false" />
+            <element signature="method#getXY#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#setXY#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#toString#0;class#MyPoint#0" expanded="false" />
+            <element signature="method#distance#1;class#MyPoint#0" expanded="false" />
           </folding>
         </state>
       </provider>

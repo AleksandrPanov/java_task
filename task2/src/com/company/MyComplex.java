@@ -6,7 +6,6 @@ public class MyComplex {
 
     public MyComplex() {
     }
-
     public MyComplex(double real, double imag) {
         this.real = real;
         this.imag = imag;
@@ -15,7 +14,6 @@ public class MyComplex {
     public double getReal() {
         return real;
     }
-
     public double getImag() {
         return imag;
     }
@@ -23,21 +21,18 @@ public class MyComplex {
     public void setReal(double real) {
         this.real = real;
     }
-
     public void setImag(double imag) {
         this.imag = imag;
     }
-
-    @Override
-    public String toString() {
-        return "(" + real +"+" + imag + "i)";
-    }
-
     void SetValue(double real, double imag)
     {
 
         this.real = real;
         this.imag = imag;
+    }
+    @Override
+    public String toString() {
+        return "(" + real +"+" + imag + "i)";
     }
 
     boolean isReal()
@@ -46,7 +41,7 @@ public class MyComplex {
     }
     boolean isImaginary()
     {
-        return (real == 0);
+        return (imag != 0);
     }
 
     @Override
@@ -58,6 +53,11 @@ public class MyComplex {
 
         if (Double.compare(myComplex.real, real) != 0) return false;
         return Double.compare(myComplex.imag, imag) == 0;
+    }
+
+    public boolean equals(MyComplex o)
+    {
+        return (real == o.real && imag == o.imag);
     }
 
     @Override
@@ -104,6 +104,19 @@ public class MyComplex {
     {
         real -= o.real;
         imag -= o.imag;
+        return this;
+    }
+    MyComplex multiply(MyComplex o)
+    {
+        real = real * o.real - imag * o.imag;
+        imag = real * o.imag + imag * o.real;
+        return this;
+    }
+    MyComplex divide(MyComplex o)
+    {
+        double r = (real * o.real + imag * o.imag) / (o.real * o.real + o.imag * o.imag);
+        imag = (imag * o.real - real * o.imag) / (o.real * o.real + o.imag * o.imag);
+        real = r;
         return this;
     }
 }
