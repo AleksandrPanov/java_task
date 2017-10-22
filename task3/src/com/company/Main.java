@@ -28,7 +28,9 @@ public class Main {
     }
     public static void task2()
     {
-        Integer n = 20;
+        Integer n = 5;
+        System.out.println(n+"! = " + Factorial.circleF(n) + " "+n+"! = " + Factorial.recursionF(n));
+        n = 20;
         TimeMeter.printTimeMicroSeconds(new Factorial(), n, 0);
         TimeMeter.printTimeMicroSeconds(new Factorial(), n, 1);
     }
