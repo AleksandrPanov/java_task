@@ -183,23 +183,39 @@ public class Main {
         System.out.println("e");
         ar = GenArray.getRandAr(10, 0, 10);
         int ar1[] = GenArray.getRandAr(10, 0, 10);
-        double average = 0;
+        double average1 = 0, average2 = 0;
+        for (int i = 0; i < 10; i++)
+        {
+            average1 += ar[i];
+            average2 += ar1[i];
+        }
+        average1 /= 10;
+        average2 /= 10;
+        System.out.println("average of ar1 = "+average1 + "average of ar2 = " + average2);
         //find average
 
         System.out.println("f");
         ar = GenArray.getRandAr(20, -1, 1);
-        int maxRep[] = {0, 0, 0};
+        printAr(ar);
+        int rep[] = {0, 0, 0};
         for (int i = 0; i < 20;i++)
-            maxRep[ar[i]+1]++;
-        int pop1 = -2, pop2 = -2;
-        System.out.println("most repetitions ");
-        //поиск повторений
+            rep[ar[i]+1]++;
+        for (int i = 0; i < 3; i++)
+         System.out.println("num of " +(i-1) +" = " + rep[i]);
+
+    }
+    public static void task5()
+    {
+
+    }
+    public static void task6()
+    {
 
     }
     public static void main(String[] args) {
        // task1();
        // task2();
        // task3();
-        task4();
+       // task4();
     }
 }
