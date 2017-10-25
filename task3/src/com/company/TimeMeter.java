@@ -6,6 +6,6 @@ public class TimeMeter {
         long startTime = System.nanoTime();
         f.calculate(o, numMethod);
         long estimatedTime = System.nanoTime() - startTime;
-        System.out.println(estimatedTime/1000 + " mcs");
+        System.out.println(estimatedTime/1000 + " microseconds");
     }
 }

@@ -15,11 +15,11 @@ public class Sort implements Functor {
             StandartSort(ar);
     }
 
-    private static int min(int a, int b)
+    static int min(int a, int b)
     {
         return (a < b ? a : b);
     }
-    private static int max(int a, int b)
+    static int max(int a, int b)
     {
         return (a > b ? a : b);
     }

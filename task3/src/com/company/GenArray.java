@@ -13,4 +13,14 @@ public class GenArray {
         }
         return ar;
     }
+    public  static int[] getRandOddAr(int size, int minOdd, int maxOdd)
+    {
+        Random random = new Random();
+        int ar[] = new int[size];
+        for (int i = 0; i < size; i++)
+        {
+            ar[i] = (random.nextInt(maxOdd/2 - minOdd/2 + 1) + minOdd/2)*2 + 1;
+        }
+        return ar;
+    }
 }
