@@ -15,25 +15,40 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="374" column="10" lean-forward="false" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
+            <state relative-caret-position="335">
+              <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#printAr#0;class#Main#0" expanded="false" />
+                <element signature="method#printArRound#0;class#Main#0" expanded="false" />
                 <element signature="method#task1#0;class#Main#0" expanded="false" />
                 <element signature="method#task2#0;class#Main#0" expanded="false" />
-                <element signature="method#f1#0;class#Main#0" expanded="false" />
-                <element signature="method#fa#0;class#Main#0" expanded="false" />
-                <element signature="method#fb#0;class#Main#0" expanded="false" />
-                <element signature="method#fc#0;class#Main#0" expanded="false" />
-                <element signature="method#fd#0;class#Main#0" expanded="false" />
-                <element signature="method#fe#0;class#Main#0" expanded="false" />
-                <element signature="method#fh#0;class#Main#0" expanded="false" />
                 <element signature="method#task3#0;class#Main#0" expanded="false" />
                 <element signature="method#task4#0;class#Main#0" expanded="false" />
                 <element signature="method#task5#0;class#Main#0" expanded="false" />
                 <element signature="class#Test#0;class#Main#0" expanded="false" />
                 <element signature="method#test1#0;class#Main#0" expanded="false" />
                 <element signature="method#test2#0;class#Main#0" expanded="false" />
+                <element signature="method#task6#0;class#Main#0" expanded="false" />
+                <element signature="method#main#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Picture.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Picture.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <element signature="method#f1#0;class#Picture#0" expanded="false" />
+                <element signature="method#fa#0;class#Picture#0" expanded="false" />
+                <element signature="method#fb#0;class#Picture#0" expanded="false" />
+                <element signature="method#fc#0;class#Picture#0" expanded="false" />
+                <element signature="method#fd#0;class#Picture#0" expanded="false" />
+                <element signature="method#fe#0;class#Picture#0" expanded="false" />
+                <element signature="method#fh#0;class#Picture#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -43,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/TimeMeter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="7" column="59" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="59" />
+              <caret line="7" column="59" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -73,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/company/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="320">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+              <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#calculate#0;class#Sort#0" expanded="false" />
@@ -87,7 +102,7 @@
       <file leaf-file-name="GenArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/GenArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="340">
               <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,8 +116,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -119,11 +134,12 @@
         <option value="$PROJECT_DIR$/src/com/company/TimeMeter.java" />
         <option value="$PROJECT_DIR$/src/com/company/GenArray.java" />
         <option value="$PROJECT_DIR$/src/com/company/Sort.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Picture.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds">
     <option name="x" value="84" />
     <option name="y" value="18" />
     <option name="width" value="1126" />
@@ -144,8 +160,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -169,7 +184,8 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,8 +258,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="84" y="18" width="1126" height="994" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -251,14 +266,14 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3074468" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32915717" sideWeight="0.5054054" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3074468" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.4945946" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25104168" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43423423" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -278,7 +293,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -289,21 +304,87 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TimeMeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="7" column="59" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11860">
+          <caret line="593" column="63" lean-forward="false" selection-start-line="593" selection-start-column="63" selection-end-line="593" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="32" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#calculate#0;class#Sort#0" expanded="false" />
+            <element signature="method#BubbleSort#0;class#Sort#0" expanded="false" />
+            <element signature="method#SelectionSort#0;class#Sort#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/GenArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
+            <element signature="method#task1#0;class#Main#0" expanded="false" />
+            <element signature="method#task2#0;class#Main#0" expanded="false" />
+            <element signature="method#task3#0;class#Main#0" expanded="false" />
+            <element signature="method#task4#0;class#Main#0" expanded="false" />
+            <element signature="method#task5#0;class#Main#0" expanded="false" />
+            <element signature="class#Test#0;class#Main#0" expanded="false" />
+            <element signature="method#test1#0;class#Main#0" expanded="false" />
+            <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -353,21 +434,18 @@
           <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -384,7 +462,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -425,21 +502,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -450,21 +524,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -475,21 +546,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -500,21 +568,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -525,21 +590,18 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,7 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,7 +633,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <caret line="30" column="5" lean-forward="false" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#calculate#0;class#Sort#0" expanded="false" />
@@ -584,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/GenArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="340">
           <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -595,32 +656,45 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/TimeMeter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
-          <caret line="7" column="59" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="59" />
+          <caret line="7" column="59" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="7" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Picture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="method#f1#0;class#Picture#0" expanded="false" />
+            <element signature="method#fa#0;class#Picture#0" expanded="false" />
+            <element signature="method#fb#0;class#Picture#0" expanded="false" />
+            <element signature="method#fc#0;class#Picture#0" expanded="false" />
+            <element signature="method#fd#0;class#Picture#0" expanded="false" />
+            <element signature="method#fe#0;class#Picture#0" expanded="false" />
+            <element signature="method#fh#0;class#Picture#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="374" column="10" lean-forward="false" selection-start-line="374" selection-start-column="10" selection-end-line="374" selection-end-column="10" />
+        <state relative-caret-position="335">
+          <caret line="227" column="5" lean-forward="true" selection-start-line="227" selection-start-column="5" selection-end-line="227" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#printAr#0;class#Main#0" expanded="false" />
+            <element signature="method#printArRound#0;class#Main#0" expanded="false" />
             <element signature="method#task1#0;class#Main#0" expanded="false" />
             <element signature="method#task2#0;class#Main#0" expanded="false" />
-            <element signature="method#f1#0;class#Main#0" expanded="false" />
-            <element signature="method#fa#0;class#Main#0" expanded="false" />
-            <element signature="method#fb#0;class#Main#0" expanded="false" />
-            <element signature="method#fc#0;class#Main#0" expanded="false" />
-            <element signature="method#fd#0;class#Main#0" expanded="false" />
-            <element signature="method#fe#0;class#Main#0" expanded="false" />
-            <element signature="method#fh#0;class#Main#0" expanded="false" />
             <element signature="method#task3#0;class#Main#0" expanded="false" />
             <element signature="method#task4#0;class#Main#0" expanded="false" />
             <element signature="method#task5#0;class#Main#0" expanded="false" />
             <element signature="class#Test#0;class#Main#0" expanded="false" />
             <element signature="method#test1#0;class#Main#0" expanded="false" />
             <element signature="method#test2#0;class#Main#0" expanded="false" />
+            <element signature="method#task6#0;class#Main#0" expanded="false" />
+            <element signature="method#main#0;class#Main#0" expanded="false" />
           </folding>
         </state>
       </provider>
