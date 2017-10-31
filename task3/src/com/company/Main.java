@@ -1,5 +1,6 @@
 package com.company;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void printAr(int ar[]) {
@@ -202,20 +203,175 @@ public class Main {
             rep[ar[i]+1]++;
         for (int i = 0; i < 3; i++)
          System.out.println("num of " +(i-1) +" = " + rep[i]);
+        String s = " - this number occurs most often";
+        if (rep[0] >= rep[1] && rep[0] >= rep[2])
+            System.out.println(-1 + s);
+        else if (rep[1] >= rep[2] && rep[1] >= rep[0])
+            System.out.println(0 + s);
+        else if (rep[2] >= rep[1] && rep[2] >= rep[0])
+            System.out.println(1 + s);
+
 
     }
     public static void task5()
     {
+        int row = 8, col = 8;
+        //a
+        System.out.println("task 5.a");
+        int ar[][] = GenArray.getRandAr(row,col, 1, 99);
+        long multM = 1, sumM = 0, multC = 1, sumC = 0;
+        for (int i = 0; i < row; i++)
+        {
+            sumM += ar[i][i];
+            multM *= ar[i][i];
+        }
+        for (int i = 0; i< row; i++)
+        {
+            sumC  += ar[i][row - i - 1];
+            multC *= ar[i][row - i - 1];
+        }
+        System.out.println("sum of elements main diagonal " + sumM + " product of the elements main diagonal " + multM);
+        System.out.println("sum of elements secondary diagonal " + sumC + " product of the elements secondary diagonal " + multC);
+        System.out.println();
+        //b
+        System.out.println("task 5.b");
+        row = 8; col = 5;
+        ar = GenArray.getRandAr(row, col, -99, 99);
+        int max = -1000;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                System.out.print(ar[i][j]+ " ");
+                max = Sort.max(ar[i][j], max);
+            }
+            System.out.println();
+        }
+        System.out.println("max value = "+max);
+        System.out.println("indices of max");
+        for (int i = 0; i < row; i++)
+            for (int j = 0; j < col; j++)
+                if (ar[i][j] == max)
+                    System.out.print("("+i+","+j+")");
+        System.out.println();
+        System.out.println();
+        //c
+        System.out.println("task 5.c");
+        ar = GenArray.getRandAr(row, col, -10, 10);
 
+        int ind = 0;
+        for (int i = 0; i < row; i++)
+        {
+            int tmp = 1;
+            for (int j = 0; j < col; j++)
+            {
+                System.out.print(ar[i][j] + " ");
+                tmp *= ar[i][j];
+            }
+            tmp = Math.abs(tmp);
+            if (i == 0)
+                max = tmp;
+            else
+                {
+                    if (max < tmp)
+                    {
+                        max = tmp;
+                        ind = i;
+                    }
+            }
+            System.out.println();
+        }
+        System.out.println("max product in row " + ind + " and = "+max);
+        System.out.println();
+        //d
+        System.out.println("task 5.d");
+        row = 10;
+        col = 7;
+        ar = GenArray.getRandAr(row, col, 0, 100);
+        for (int i = 0; i < row; i++)
+            printAr(ar[i]);
+        System.out.println("sorted:");
+        for (int i = 0; i < row; i++)
+        {
+            Sort.SelectionSort(ar[i]);
+            printAr(ar[i]);
+        }
+    }
+    enum Test  {
+        q, w, e, r, t, y, u, i, o, p, a, s, d, f;
+    };
+    static Test test1(Test t)
+    {
+     if (t == Test.q) return t;
+     else if (t == Test.w) return t;
+     else if (t == Test.e) return t;
+     else if (t == Test.r) return t;
+     else if (t == Test.t) return t;
+     else if (t == Test.y) return t;
+     else if (t == Test.u) return t;
+     else if (t == Test.i) return t;
+     else if (t == Test.o) return t;
+     else if (t == Test.p) return t;
+     else if (t == Test.a) return t;
+     else if (t == Test.s) return t;
+     else if (t == Test.d) return t;
+     else if (t == Test.f) return t;
+     else return t;
+    }
+    static Test test2(Test t)
+    {
+        switch (t) {
+            case q:
+                return t;
+            case w:
+                return t;
+            case e:
+                return t;
+            case r:
+                return t;
+            case t:
+                return t;
+            case y:
+                return t;
+            case u:
+                return t;
+            case i:
+                return t;
+            case o:
+                return t;
+            case p:
+                return t;
+            case a:
+                return t;
+            case s:
+                return t;
+            case d:
+                return t;
+            default:
+                return t;
+        }
     }
     public static void task6()
     {
+        String s = "";
+        Scanner in = new Scanner(System.in);
+        s = in.next();
+        Test t = Test.valueOf(s);
 
+        long startTime = System.nanoTime();
+        test1(t);
+        long estimatedTime = System.nanoTime() - startTime;
+        System.out.println("if-else-f "+estimatedTime);
+
+        startTime = System.nanoTime();
+        test1(t);
+        estimatedTime = System.nanoTime() - startTime;
+        System.out.println("switch-case "+estimatedTime);
     }
     public static void main(String[] args) {
-       // task1();
-       // task2();
-       // task3();
-       // task4();
+        //task1();
+        //task2();
+        //task3();
+        //task4();
+        //task5();
+        //task6();
     }
 }

@@ -13,6 +13,14 @@ public class GenArray {
         }
         return ar;
     }
+    public  static int[][] getRandAr(int row, int col, int min, int max)
+    {
+        Random random = new Random();
+        int ar[][] = new int[row][];
+        for (int i = 0; i < row; i++)
+            ar[i] =getRandAr(col, min, max);
+        return ar;
+    }
     public  static int[] getRandOddAr(int size, int minOdd, int maxOdd)
     {
         Random random = new Random();

@@ -41,14 +41,16 @@ public class Sort implements Functor {
     public static void SelectionSort(int ar[])
     {
         int n = ar.length;
-        int tmp = ar[0], ind = 0;
+        int tmp, ind;
         for (int i = 0; i < n; i++) {
-            for (int j = i + 1; j < n; j++)
             {
-                if (ar[j] < tmp)
-                {
-                    tmp = ar[j];
-                    ind = j;
+                ind = i;
+                tmp = ar[i];
+                for (int j = i + 1; j < n; j++) {
+                    if (ar[j] < tmp) {
+                        tmp = ar[j];
+                        ind = j;
+                    }
                 }
             }
             swap(ar, i, ind);
