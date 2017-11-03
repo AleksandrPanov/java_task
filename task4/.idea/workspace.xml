@@ -15,13 +15,16 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+            <state relative-caret-position="120">
+              <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
               <folding>
-                <element signature="e#1016#1025#0" expanded="true" />
-                <element signature="e#1446#1464#0" expanded="true" />
-                <element signature="e#1531#1549#0" expanded="true" />
-                <element signature="e#1603#1621#0" expanded="true" />
+                <element signature="method#task2A#0;class#Main#0" expanded="false" />
+                <element signature="method#task2B#0;class#Main#0" expanded="false" />
+                <element signature="e#1069#1078#0" expanded="true" />
+                <element signature="method#task2C#0;class#Main#0" expanded="false" />
+                <element signature="e#1552#1570#0" expanded="true" />
+                <element signature="e#1637#1655#0" expanded="true" />
+                <element signature="e#1709#1727#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -35,26 +38,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TimeMeter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TimeMeter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="59" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestFunction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/TestFunction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -243,10 +226,13 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1016#1025#0" expanded="true" />
-            <element signature="e#1446#1464#0" expanded="true" />
-            <element signature="e#1531#1549#0" expanded="true" />
-            <element signature="e#1603#1621#0" expanded="true" />
+            <element signature="method#task2A#0;class#Main#0" expanded="false" />
+            <element signature="method#task2B#0;class#Main#0" expanded="false" />
+            <element signature="e#1069#1078#0" expanded="true" />
+            <element signature="method#task2C#0;class#Main#0" expanded="false" />
+            <element signature="e#1552#1570#0" expanded="true" />
+            <element signature="e#1637#1655#0" expanded="true" />
+            <element signature="e#1709#1727#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -277,6 +263,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/TimeMeter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="59" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/TestFunction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -295,23 +289,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/TimeMeter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="59" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="49" column="34" lean-forward="false" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        <state relative-caret-position="120">
+          <caret line="42" column="32" lean-forward="false" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
           <folding>
-            <element signature="e#1016#1025#0" expanded="true" />
-            <element signature="e#1446#1464#0" expanded="true" />
-            <element signature="e#1531#1549#0" expanded="true" />
-            <element signature="e#1603#1621#0" expanded="true" />
+            <element signature="method#task2A#0;class#Main#0" expanded="false" />
+            <element signature="method#task2B#0;class#Main#0" expanded="false" />
+            <element signature="e#1069#1078#0" expanded="true" />
+            <element signature="method#task2C#0;class#Main#0" expanded="false" />
+            <element signature="e#1552#1570#0" expanded="true" />
+            <element signature="e#1637#1655#0" expanded="true" />
+            <element signature="e#1709#1727#0" expanded="true" />
           </folding>
         </state>
       </provider>

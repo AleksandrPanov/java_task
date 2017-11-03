@@ -24,6 +24,8 @@ public class Main {
     }
     public static void task2B() {
         int n = 10000;
+        long startTime ;
+        long estimatedTime;
         int ar[] = GenArray.getRandAr(n, -1000, 1000);
         HashSet<Integer> c3 = new HashSet<>();
         LinkedHashSet<Integer> c4 = new LinkedHashSet<>();
@@ -40,6 +42,8 @@ public class Main {
     }
     public static void task2C() {
         int n = 10000;
+        long startTime ;
+        long estimatedTime;
         int val[] = GenArray.getRandAr(n, -1000, 1000);
         int key[] = GenArray.getRandAr(n, -1000, 1000);
         HashMap<Integer, Integer> c6 = new HashMap<Integer, Integer>();
