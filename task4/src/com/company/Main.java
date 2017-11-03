@@ -52,7 +52,7 @@ public class Main {
         for (int i = 0; i < n; i++)
             c7.put(val[i], key[i]);
 
-        for (int i = 0; i < n/2; i++)
+        for (int i = 0; i < n; i++)
             c8.put(val[i], key[i]);
     }
     public static void main(String[] args) {
