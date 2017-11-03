@@ -40,19 +40,20 @@ public class Main {
     }
     public static void task2C() {
         int n = 10000;
-        int ar[] = GenArray.getRandAr(n, -1000, 1000);
+        int val[] = GenArray.getRandAr(n, -1000, 1000);
+        int key[] = GenArray.getRandAr(n, -1000, 1000);
         HashMap<Integer, Integer> c6 = new HashMap<Integer, Integer>();
         LinkedHashMap<Integer, Integer> c7 = new  LinkedHashMap<Integer, Integer>();
         TreeMap<Integer, Integer> c8 = new TreeMap<Integer, Integer>();
 
-        for (int i = 0; i < n/2; i++)
-            c6.put(ar[i], ar[i + n/2]);
+        for (int i = 0; i < n; i++)
+            c6.put(val[i], key[i]);
+
+        for (int i = 0; i < n; i++)
+            c7.put(val[i], key[i]);
 
         for (int i = 0; i < n/2; i++)
-            c7.put(ar[i], ar[i + n/2]);
-
-        for (int i = 0; i < n/2; i++)
-            c8.put(ar[i], ar[i + n/2]);
+            c8.put(val[i], key[i]);
     }
     public static void main(String[] args) {
 	task2A();
