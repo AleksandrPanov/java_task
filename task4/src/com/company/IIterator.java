@@ -2,7 +2,7 @@ package com.company;
 
 import java.util.Iterator;
 
-public class IIterator<E, T extends Node<E>> implements Iterator{
+public class IIterator<E> implements Iterator{
 
     Node<E> head;
     Node<E> cur;
