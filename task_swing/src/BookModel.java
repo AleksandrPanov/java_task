@@ -13,10 +13,17 @@ public class BookModel extends AbstractTableModel {
     public BookModel() {
         books.add(new Book());
     }
-
+    public static BookModel readData(String output)
+    {
+        return new BookModel();
+    }
     public void addBook(Book b){
         books.add(b);
         fireTableDataChanged();
+    }
+    public boolean isBook(Book b)
+    {
+        return books.contains(b);
     }
 
     @Override

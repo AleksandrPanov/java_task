@@ -5,12 +5,50 @@ import javax.swing.*;
 import java.awt.*;
 
 public class Swing extends JFrame {
-    private void addButListener1(JFrame frame, JButton but)
+    private  BookModel bookModel;
+    JTable table;
+    private void addButListener(JFrame frame, JButton but)
     {
         but.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                ChangeWindow changeWindow = new AddWindow(frame, "Add new book");
+                ChangeWindow changeWindow = new AddWindow(frame,  bookModel,"Add new book");
+            }
+        });
+    }
+    private boolean isMarksRow()
+    {
+        return table.getSelectedRows().length > 0;
+    }
+    private void changeButListener(JButton but)
+    {
+        but.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                if (isMarksRow())
+                {
+
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "select the row to be changed");
+                }
+            }
+        });
+    }
+    private void deleteButListener(JButton but)
+    {
+        but.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                if (isMarksRow())
+                {
+
+                }
+                else
+                {
+                    JOptionPane.showMessageDialog(null, "select the rows to be deleted");
+                }
             }
         });
     }
@@ -21,8 +59,8 @@ public class Swing extends JFrame {
         setDefaultCloseOperation( EXIT_ON_CLOSE );
         ChangeWindow.centerFrame(this);
         //data
-        BookModel m = new BookModel();
-        JTable table = new JTable(m);
+        bookModel = BookModel.readData("");
+        table = new JTable(bookModel);
 
         //JScrollPane
         JScrollPane jScrollPane = new JScrollPane(table);
@@ -35,15 +73,21 @@ public class Swing extends JFrame {
         panel1.setLayout(new GridLayout(0,1, 2, 10));
         butPan.setBackground(Color.GRAY);
         add(butPan, BorderLayout.EAST);
+        butPan.add(panel1, BorderLayout.NORTH);
 
         //JButtons
+        //add
         JButton butAdd = new JButton("Add");
         panel1.add(butAdd);
-        addButListener1(this,butAdd);
-
-        JButton butDel = new JButton("Del");
+        addButListener(this,butAdd);
+        //change
+        JButton butChange = new JButton("Change");
+        panel1.add(butChange);
+        changeButListener(butChange);
+        //delete
+        JButton butDel = new JButton("Delete");
         panel1.add(butDel);
-        butPan.add(panel1, BorderLayout.NORTH);
+        deleteButListener(butDel);
 
         setVisible(true);
     }
