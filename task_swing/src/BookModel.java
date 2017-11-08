@@ -11,7 +11,7 @@ public class BookModel extends AbstractTableModel {
     private List<Book> books = new ArrayList<>();
 
     public BookModel() {
-        books.add(new Book("123",100,10.5,new Author("Nick", "Perumov", "Perumov@gmail.com","m")));
+        books.add(new Book());
     }
 
     public void addBook(Book b){
