@@ -1,22 +1,30 @@
+package com.Windows;
+
+import com.Data.BookModel;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class ChangeWindow extends JDialog{
-    JPanel butPan;
-    JButton butOk;
-    JButton butCancel;
-    BookModel originalBookModel;
+    protected JPanel butPan;
+    protected JButton butOk;
+    protected JButton butCancel;
+    protected BookModel originalBookModel;
     public ChangeWindow()
     {
         super();
     }
     public ChangeWindow(JFrame frame, BookModel originalBookModel, String name)
     {
+        this(frame, originalBookModel, name, 600, 250);
+    }
+    public ChangeWindow(JFrame frame, BookModel originalBookModel, String name, int width, int height)
+    {
         super(frame, name, true);
         this.originalBookModel = originalBookModel;
-        setSize(600, 250);
+        setSize(width, height);
         centerFrame(this);
 
         butPan = new JPanel();

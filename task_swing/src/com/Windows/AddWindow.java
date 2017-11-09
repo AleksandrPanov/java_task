@@ -1,16 +1,34 @@
+package com.Windows;
+import com.Exception.ExeptionDate;
+
+import com.Data.Book;
+import com.Data.BookModel;
+import com.Exception.ExeptionDateNotExist;
+import com.Exception.ExeptionThisBookExist;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+
 public class AddWindow extends ChangeWindow
 {
-    JPanel textPan;
-    JPanel grPan;
-    JTextField textFields[];
-    JLabel labels[];
-    BookModel bookModel;
-    AddWindow(JFrame frame, BookModel originalBookModel, String name)
+    protected JPanel textPan;
+    protected JPanel grPan;
+    protected JTextField textFields[];
+    protected JLabel labels[];
+    protected BookModel bookModel;
+    public AddWindow()
+    {
+        super();
+    }
+    public AddWindow(JFrame frame, BookModel originalBookModel, String name)
+    {
+       this(frame, originalBookModel, name, new BookModel());
+       setVisible(true);
+    }
+    public AddWindow(JFrame frame, BookModel originalBookModel, String name, BookModel bookModel)
     {
         //form
         super(frame, originalBookModel, name);
@@ -19,7 +37,7 @@ public class AddWindow extends ChangeWindow
         grPan = new JPanel();
         textPan.add(grPan);
         //bookModel and txt fields and labs
-        bookModel = new BookModel();
+        this.bookModel = bookModel;
         textFields = new JTextField[bookModel.getColumnCount()];
         labels = new JLabel[bookModel.getColumnCount()];
         grPan.setLayout(new GridLayout(2,bookModel.getColumnCount(), 2, 10));
@@ -30,14 +48,21 @@ public class AddWindow extends ChangeWindow
         }
         for (int i = 0; i < bookModel.getColumnCount(); i++)
         {
-            textFields[i] = new JTextField(bookModel.getValueAt(0, i).toString());
+            textFields[i] = new JTextField();
             grPan.add(textFields[i]);
         }
-        //but
+        fillTextFields();
+        //button
         okButListener1(butOk);
-        setVisible(true);
     }
-    private void okButListener1(JButton but)
+    protected void fillTextFields()
+    {
+        for (int i = 0; i < bookModel.getColumnCount(); i++)
+        {
+            textFields[i].setText(bookModel.getValueAt(0, i).toString());
+        }
+    }
+    protected void okButListener1(JButton but)
     {
         but.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
@@ -59,7 +84,16 @@ public class AddWindow extends ChangeWindow
                 catch (NumberFormatException exception)
                 {
                     JOptionPane.showMessageDialog(null, "incorrect data format, price and count must be positive");
-                } catch (ExeptionThisBookExist exception) {
+                }
+                catch (ExeptionDateNotExist exception)
+                {
+                    JOptionPane.showMessageDialog(null, exception);
+                }
+                catch (ExeptionDate exception)
+                {
+                    JOptionPane.showMessageDialog(null, exception);
+                }
+                catch (ExeptionThisBookExist exception) {
                     JOptionPane.showMessageDialog(null, exception);;
                 }
             }

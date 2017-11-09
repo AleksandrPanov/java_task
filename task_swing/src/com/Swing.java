@@ -1,18 +1,26 @@
-import javafx.beans.property.adapter.JavaBeanBooleanProperty;
+package com;
+
+import com.Data.BookModel;
+import com.Windows.AddWindow;
+import com.Windows.ChangeWindow;
+import com.Windows.ChangeWindowHeir;
+import com.Windows.DeleteWindow;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 import java.awt.*;
 
 public class Swing extends JFrame {
-    private  BookModel bookModel;
+    private BookModel bookModel = new BookModel(true);
     JTable table;
+
     private void addButListener(JFrame frame, JButton but)
     {
         but.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
-                ChangeWindow changeWindow = new AddWindow(frame,  bookModel,"Add new book");
+                new AddWindow(frame,  bookModel,"Add new book");
             }
         });
     }
@@ -20,14 +28,14 @@ public class Swing extends JFrame {
     {
         return table.getSelectedRows().length > 0;
     }
-    private void changeButListener(JButton but)
+    private void changeButListener(JFrame frame, JButton but)
     {
         but.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
                 if (isMarksRow())
                 {
-
+                    new ChangeWindowHeir(frame, bookModel, table);
                 }
                 else
                 {
@@ -36,14 +44,14 @@ public class Swing extends JFrame {
             }
         });
     }
-    private void deleteButListener(JButton but)
+    private void deleteButListener(JFrame frame, JButton but)
     {
         but.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e)
             {
                 if (isMarksRow())
                 {
-
+                    new DeleteWindow(frame, bookModel, table);
                 }
                 else
                 {
@@ -52,42 +60,54 @@ public class Swing extends JFrame {
             }
         });
     }
+    private void saveButListener(JButton but)
+    {
+        but.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e)
+            {
+                bookModel.writeData();
+            }
+        });
+    }
     public Swing() {
         //window
-        super("Book counting");
+        super("com.Data.Book counting");
         setSize(750, 350);
         setDefaultCloseOperation( EXIT_ON_CLOSE );
         ChangeWindow.centerFrame(this);
         //data
-        bookModel = BookModel.readData("");
+        BookModel.readData(bookModel);
         table = new JTable(bookModel);
 
         //JScrollPane
         JScrollPane jScrollPane = new JScrollPane(table);
         add(jScrollPane, BorderLayout.CENTER);
 
-        //Panel button
+        //panel, button's panel
         JPanel butPan = new JPanel();
-        JPanel panel1 = new JPanel();
+        JPanel panel = new JPanel();
 
-        panel1.setLayout(new GridLayout(0,1, 2, 10));
-        butPan.setBackground(Color.GRAY);
+        panel.setLayout(new GridLayout(0,1, 2, 10));
         add(butPan, BorderLayout.EAST);
-        butPan.add(panel1, BorderLayout.NORTH);
+        butPan.add(panel, BorderLayout.NORTH);
 
         //JButtons
         //add
         JButton butAdd = new JButton("Add");
-        panel1.add(butAdd);
+        panel.add(butAdd);
         addButListener(this,butAdd);
         //change
         JButton butChange = new JButton("Change");
-        panel1.add(butChange);
-        changeButListener(butChange);
+        panel.add(butChange);
+        changeButListener(this, butChange);
         //delete
         JButton butDel = new JButton("Delete");
-        panel1.add(butDel);
-        deleteButListener(butDel);
+        panel.add(butDel);
+        deleteButListener(this, butDel);
+
+        JButton butSave = new JButton("Save");
+        panel.add(butSave);
+        saveButListener(butSave);
 
         setVisible(true);
     }

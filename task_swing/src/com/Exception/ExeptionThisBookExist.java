@@ -1,3 +1,5 @@
+package com.Exception;
+
 public class ExeptionThisBookExist extends Exception {
     @Override
     public String toString() {
