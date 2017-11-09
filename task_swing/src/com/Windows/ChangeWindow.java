@@ -18,7 +18,7 @@ public class ChangeWindow extends JDialog{
     }
     public ChangeWindow(JFrame frame, BookModel originalBookModel, String name)
     {
-        this(frame, originalBookModel, name, 600, 250);
+        this(frame, originalBookModel, name, 650, 250);
     }
     public ChangeWindow(JFrame frame, BookModel originalBookModel, String name, int width, int height)
     {
