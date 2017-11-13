@@ -8,6 +8,6 @@ public class TimeMeter {
             f.calculate(key[i], operation);
         }
         long estimatedTime = System.nanoTime() - startTime;
-        System.out.println(f + " " + key.length+ " " + operation + " worked " + estimatedTime/1000000 + " milliseconds");
+        System.out.println(f + " " + key.length+ " operations of " + operation + " worked " + estimatedTime/1000000 + " milliseconds");
     }
 }
