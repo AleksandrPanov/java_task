@@ -1,26 +1,20 @@
 package com.company;
+import com.company.TestCollections.GenArray;
+import com.company.TestCollections.*;
+import com.company.TestCollections.Collections.*;
+
 import java.util.*;
 
 public class Main {
     public static void task2A() {
-        int n = 1000000;
-        long startTime ;
-        long estimatedTime;
+        int n = 2500000;
         int ar[] = GenArray.getRandAr(n, -1000, 1000);
-        ArrayList<Integer> c1 = new ArrayList<>();
-        LinkedList<Integer> c2 = new LinkedList<>();
 
-        startTime = System.nanoTime();
-        for (int i = 0; i < n; i++)
-            c1.add(ar[i]);
-        estimatedTime = System.nanoTime() - startTime;
-        System.out.println(estimatedTime/1000000);
+        Functor<Integer> arrayList = new TestArrayList<>();
+        Functor<Integer> linkedList = new TestLinkedList<>();
 
-        startTime = System.nanoTime();
-        for (int i = 0; i < n; i++)
-            c2.add(ar[i]);
-        estimatedTime = System.nanoTime() - startTime;
-        System.out.println(estimatedTime/1000000);
+        TimeMeter.printTimeOfOperation(arrayList, ar, Operations.Add);
+        TimeMeter.printTimeOfOperation(linkedList, ar, Operations.Add);
     }
     public static void task2B() {
         int n = 10000;

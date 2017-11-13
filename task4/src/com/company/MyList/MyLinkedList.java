@@ -1,6 +1,8 @@
-package com.company;
+package com.company.MyList;
 
-public class MyLinkedList<E> implements ILinkedList<E>{
+import com.company.MyList.ILinkedList;
+
+public class MyLinkedList<E> implements ILinkedList<E> {
     private static class MyNode<E> {
         E item;
         MyNode<E> next;

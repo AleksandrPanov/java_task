@@ -1,4 +1,4 @@
-package com.company;
+package com.company.MyList;
 
 public class Node<E> {
     E el;

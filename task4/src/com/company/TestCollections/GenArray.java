@@ -1,5 +1,4 @@
-package com.company;
-import java.sql.Time;
+package com.company.TestCollections;
 import java.util.Random;
 
 public class GenArray {
