@@ -4,17 +4,24 @@ import java.util.Iterator;
 
 public class IIterator<E> implements Iterator{
 
-    Node<E> head;
-    Node<E> cur;
+    MyNode<E> head = null;
+    MyNode<E> cur = null;
 
-    @Override
-    public boolean hasNext() {
-        return (cur.next != null);
+    public IIterator( MyNode<E> head)
+    {
+        this.head = head;
+        this.cur = head;
     }
 
     @Override
-    public Node<E> next() {
+    public boolean hasNext() {
+        return (cur != null);
+    }
+
+    @Override
+    public E next() {
+        MyNode<E> tmp = cur;
         cur = cur.next;
-        return  cur;
+        return  tmp.item;
     }
 }

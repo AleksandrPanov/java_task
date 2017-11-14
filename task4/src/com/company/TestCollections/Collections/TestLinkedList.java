@@ -29,4 +29,5 @@ public class TestLinkedList<T> extends LinkedList<T> implements Functor<T> {
     public String toString() {
         return "LinkedList";
     }
+
 }
