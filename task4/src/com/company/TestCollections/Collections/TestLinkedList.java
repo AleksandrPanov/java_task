@@ -17,7 +17,7 @@ public class TestLinkedList<T> extends LinkedList<T> implements Functor<T> {
                 this.add(this.size()/2, key);
                 break;
             case Delete:
-                this.remove(key);
+                this.removeFirst();
                 break;
             case Search:
                 this.contains(key);

@@ -8,7 +8,10 @@ import java.util.*;
 
 public class Main {
     static Operations ListOperation[] = {Operations.Add, Operations.Search, Operations.Delete, Operations.Insert};
+    static int nAr = 100000;
+    static int nHashTree = 1000000;
     public static void task1A() {
+        System.out.println("Test of MyList");
         MyLinkedList<Double> myLinkedList = new MyLinkedList<>();
         myLinkedList.add(1.0);
         myLinkedList.add(2.0);
@@ -32,8 +35,8 @@ public class Main {
     }
     public static void task1B()
     {
-        int n = 50000;
-        int ar[] = GenArray.getRandAr(n, -1000, 1000);
+        System.out.println("Test performance of MyList");
+        int ar[] = GenArray.getRandAr(nAr, -1000, 1000);
         MyLinkedList<Integer> myLinkedList = new MyLinkedList<>();
         for (int i = 0; i < 4; i++)
         {
@@ -43,8 +46,7 @@ public class Main {
 
     }
     public static void task2A() {
-        int n = 50000;
-        int ar[] = GenArray.getRandAr(n, -1000, 1000);
+        int ar[] = GenArray.getRandAr(nAr, -1000, 1000);
 
         Functor<Integer> arrayList = new TestArrayList<>();
         Functor<Integer> linkedList = new TestLinkedList<>();
@@ -54,10 +56,10 @@ public class Main {
             TimeMeter.printTimeOfOperation(arrayList, ar, ListOperation[i]);
             TimeMeter.printTimeOfOperation(linkedList, ar, ListOperation[i]);
         }
+        System.out.println();
     }
     public static void task2B() {
-        int n = 5500000;
-        int ar[] = GenArray.getRandAr(n, -100000, 100000);
+        int ar[] = GenArray.getRandAr(nHashTree, -100000, 100000);
 
         Functor<Integer> hashSet = new TestHashSet<>();
         Functor<Integer> linkedHashSet = new TestLinkedHashSet<>();
@@ -69,10 +71,10 @@ public class Main {
             TimeMeter.printTimeOfOperation(linkedHashSet, ar, ListOperation[i]);
             TimeMeter.printTimeOfOperation(treeSet, ar, ListOperation[i]);
         }
+        System.out.println();
     }
     public static void task2C() {
-        int n = 5500000;
-        int key[] = GenArray.getRandAr(n, -100000, 100000);
+        int key[] = GenArray.getRandAr(nHashTree, -100000, 100000);
         Functor<Integer> hashMap = new TestHashMap<Integer>();
         Functor<Integer> linkedHashMap = new  TestLinkedHashMap<Integer>();
         Functor<Integer> treeMap = new TestTreeMap<Integer>();
